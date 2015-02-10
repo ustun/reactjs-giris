@@ -214,7 +214,7 @@ var Selamlama = React.createClass({
 })
 ```
 
-İşte bu noktada artık MerhabaDünya adında yeniden kullanılabilir ve arayüzü,
+İşte bu noktada artık `MerhabaDunya` adında yeniden kullanılabilir ve arayüzü,
 yani giriş degişkenleri tam olarak belirlenmiş bir çocuk bileşenimiz oldu.
 
 ### Veri değişimi
@@ -267,7 +267,7 @@ bir `onClick` handler fonksiyon eklememiz ve bu fonksiyonda `state`'teki sayacı
 bir artırmamız gerekmekte.
 
 ```js
-var Sayaç = React.createClass({
+var Sayac = React.createClass({
 
     getInitialState: function () {
       return {sayac: 0};
@@ -492,5 +492,5 @@ verilerini tepeden props, kendi içinde state şeklinde yönettiği ve yukarıda
 değişiklik yapılacaksa bu değişikliklerin çallbackler ile yapıldığı. Üçüncüsü
 veri ile görüntü senkronizasyonu için bileşenlerin görüntüsünün her zaman baştan
 oluşturulduğu, React'in de sanal DOM adı verilen metodla bunu çok hızlı bir
-şekilde yaptığı. Bu özellikler sayesinde React kütüphanesi hızlı ve hatasız
-şekilde, yüksek performanslı çalışan arayüzler geliştirmemizi sağlamakta.
+şekilde yaptığı. Bu özellikler sayesinde React kütüphanesi ile yüksek
+performanslı arayüzleri hızlı ve hatasız şekilde geliştirebilmekteyiz.
