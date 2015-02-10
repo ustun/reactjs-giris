@@ -255,7 +255,7 @@ var Sayac = React.createClass({
   render: function () {
     return (
       <div>
-        Sayaca {this.state.sayaç} kez tıkladınız
+        Sayaca {this.state.sayac} kez tıkladınız
         <button>Sayaç</button>
       </div>);
     }
@@ -280,7 +280,7 @@ var Sayac = React.createClass({
     render: function () {
       return (
         <div>
-          Sayaca {this.state.sayaç} kez tıkladınız
+          Sayaca {this.state.sayac} kez tıkladınız
           <button onClick={this.artir}>Sayaç</button>
         </div>;
     }
@@ -430,7 +430,7 @@ var Sayac = React.createClass({
 var Sayaclar = React.createClass({
   getInitialState: function () {
     return {sayac1: 3,  sayac2: 5};
-},
+  },
 
   sayac1Artir: function () {
      this.setState({sayac1: this.state.sayac1 + 1,
@@ -445,11 +445,11 @@ var Sayaclar = React.createClass({
   render: function () {
      return (
        <div>
-        <Sayac sayac={this.state.sayac1} artır={this.sayac1Artir}/>
-        <Sayac sayac={this.state.sayac2} artır={this.sayac2Artir}/>
+        <Sayac sayac={this.state.sayac1} artir={this.sayac1Artir}/>
+        <Sayac sayac={this.state.sayac2} artir={this.sayac2Artir}/>
       </div>);
   }
-});
+})
 ```
 
 Böylece sistemdeki asıl karmaşıklık, merkezi olarak tepede, ana bileşende
