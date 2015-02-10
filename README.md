@@ -133,7 +133,7 @@ React component'i oluşturmak için `React.createClass` metodunu bir nesne
 metodunda tanımlıyoruz. Mesela, `MerhabaDunya` adında bir bileşen tanımlayalım.
 
 ```js
-var MerhabaDünya = React.createClass({
+var MerhabaDunya = React.createClass({
   render: function () {
     return <div>Merhaba Dunya</div>;
   }
@@ -196,7 +196,7 @@ var MerhabaDunya = React.createClass({
 })
 ```
 
-Buradaki {} (süslü parantezler) yine React'in JSX aracıyla JavaScript'e yaptığı
+Buradaki { } (süslü parantezler) yine React'in JSX aracıyla JavaScript'e yaptığı
 bir ekleme, alt tarafta aslında parantezin icindekiler fonksiyon parametresine
 dönüşmekte. Yani `<div>Merhaba {this.props.isim}</div>` yerine `div(null,
 "Merhaba", this.props.isim)` de yazabilirdik.
