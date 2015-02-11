@@ -171,8 +171,8 @@ var Selamlama = React.createClass({
   render: function () {
     return (
       <div>
-        <MerhabaDünya/>
-        <MerhabaDünya/>
+        <MerhabaDunya/>
+        <MerhabaDunya/>
       </div>)
    }
 })
@@ -207,8 +207,8 @@ dönüşmekte. Yani `<div>Merhaba {this.props.isim}</div>` yerine `div(null,
 var Selamlama = React.createClass({
     render: function () {
       return <div>
-         <MerhabaDünya isim="Üstün"/>
-         <MerhabaDünya isim="Özgür"/>
+         <MerhabaDunya isim="Üstün"/>
+         <MerhabaDunya isim="Özgür"/>
        </div>
      }
 })
@@ -275,7 +275,7 @@ var Sayac = React.createClass({
 
     artir: function () {
         // Buraya ne yazmalıyız?
-    }
+    },
 
     render: function () {
       return (
@@ -301,8 +301,8 @@ var Sayac = React.createClass({
 
   artir: function () {
     var suAnkiSayac = this.state.sayac;
-    this.setState(state: suAnkiŞayac + 1);
-   }
+    this.setState({sayac: suAnkiSayac + 1});
+   },
 
   render: function () {
     return (
@@ -351,15 +351,15 @@ var Sayac = React.createClass({
 
   artir: function () {
     var suAnkiSayac = this.state.sayac;
-    this.setState(state: suAnkiSayac + 1);
-  }
+    this.setState({sayac: suAnkiSayac + 1});
+  },
 
   render: function () {
     return (
     <div>
       Sayaca {this.state.sayac} kez tıkladınız.
       {10 - this.state.sayac} kez daha tıklamalısınız.
-      <button önClıck={this.artir}>Sayaç</button>
+      <button onClick={this.artir}>Sayaç</button>
     </div>
     );
   }
