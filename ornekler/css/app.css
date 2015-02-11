@@ -1,0 +1,31 @@
+
+
+body {
+
+  font-size: 34px;
+  width: 80%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  /* display: flex; */
+}
+
+div {
+  margin: 20px;
+  padding: 20px;
+  border: 1px dashed black;
+  text-align: center;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 20px;
+  color: white;
+  margin: 20px auto 0 auto;
+  display: block;
+
+}
+
+ol {
+  text-align: left;
+}
