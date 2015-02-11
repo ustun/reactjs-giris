@@ -144,7 +144,7 @@ Burada React aslında sadece JavaScript dilini kullanıyor, herhangi bir taslak
 dili değil bu. Normal JavaScript'ten tek farkı JSX adında HTML sözdizimine
 benzeyen yapıları kullanmamıza izin vermesi. JSX isteğe bağlı kullanılan bir
 araç, tek yaptığı bu sözdizimi alıp bu etiketleri JavaScript fonksiyonlarına
-çevirmek. Yani `<div>Merhaba Dünya</div>` deyimini `div(null, "Merhaba Dünya")`
+çevirmek. Yani `<div>Merhaba Dünya</div>` deyimini `React.createElement("div", null, "Merhaba Dünya")`
 fonksiyonuna dönüştürmekte.
 
 Bu bileşeni tanımladıktan sonra sayfamızda göstermek için sayfada halihazırda
@@ -198,7 +198,7 @@ var MerhabaDunya = React.createClass({
 
 Buradaki { } (süslü parantezler) yine React'in JSX aracıyla JavaScript'e yaptığı
 bir ekleme, alt tarafta aslında parantezin icindekiler fonksiyon parametresine
-dönüşmekte. Yani `<div>Merhaba {this.props.isim}</div>` yerine `div(null,
+dönüşmekte. Yani `<div>Merhaba {this.props.isim}</div>` yerine `React.createElement("div", null,
 "Merhaba", this.props.isim)` de yazabilirdik.
 
 Şimdi de `Selamlama` bileşenimizi `MerhabaDunya` bileşenine isim parametresini aktaracak şekilde yeniden yazalım:
