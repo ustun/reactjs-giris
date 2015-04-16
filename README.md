@@ -1,5 +1,7 @@
 # React.js'e Giriş
 
+Sunumlar şu adreste: https://speakerdeck.com/ustun/react-dot-jse-giris
+
 React.js Facebook ve Instagram tarafından geliştirilmiş bir kullanıcı arayüzü
 kütüphanesidir. Kullanıcı arayüzü geliştirmede MVC, yani model-view-controller
 (model-görüntü-kontrolcü) tasarım deseni çok fazla kullanılır. React'in temel
