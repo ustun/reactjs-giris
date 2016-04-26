@@ -330,7 +330,7 @@ durumda. React'in felsefesine göre veri değişiklikleri bir uygulamadaki en
 
 Şimdi sayaç uygulamamızı biraz geliştirelim, örneğin 0'dan ileri doğru sayarken
 aynı zamanda da 10'dan 0'a doğru bir gerisayım yapsın; ama bu iki sayı birbiri
-ile tamamen bağlantılı olsun. Yan' sayaca 3 kez tıklarsak "3 kez tıkladınız, 7
+ile tamamen bağlantılı olsun. Yani sayaca 3 kez tıklarsak "3 kez tıkladınız, 7
 kez daha tıklayın" desin. Şimdi burada kaç farklı değişken kullanmamız
 gerekmekte? İşte React uygulamaları geliştirirken kendimize sürekli sormamız
 gereken soru bu olacak: Veriyi nerede ve nasıl saklamalıyım?
@@ -491,7 +491,7 @@ Sonuç olarak React'in 3 temel özelliği olduğunu gördük. Birincisi veri
 değişimlerinin her zaman açık seçik yapıldığı ve verinin tek taraflı olarak
 aktarıldığı. İkincisi uygulamanın bileşenlere ayrıldığı ve bu bileşenlerin
 verilerini tepeden props, kendi içinde state şeklinde yönettiği ve yukarıda bir
-değişiklik yapılacaksa bu değişikliklerin çallbackler ile yapıldığı. Üçüncüsü
+değişiklik yapılacaksa bu değişikliklerin callbackler ile yapıldığı. Üçüncüsü
 veri ile görüntü senkronizasyonu için bileşenlerin görüntüsünün her zaman baştan
 oluşturulduğu, React'in de sanal DOM adı verilen metodla bunu çok hızlı bir
 şekilde yaptığı. Bu özellikler sayesinde React kütüphanesi ile yüksek
