@@ -179,6 +179,9 @@ var Selamlama = React.createClass({
    }
 })
 ```
+Burada 2 tane `MerhabaDunya` bilesenini 1 tane `div` bileseninin icine 
+koymamizin sebebi React'a ait bir ozelliktir.React'ta `render` metodu sadece
+1 tane bilesen donebilir.
 
 Gördüğünüz gibi artık `MerhabaDunya` bileşenini başka bir bileşen içerisinde
 yeniden kullanabiliyoruz. Şimdi bunu bir adım ileri götürelim, diyelim ki
